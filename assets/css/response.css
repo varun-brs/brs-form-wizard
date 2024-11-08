@@ -1,0 +1,22 @@
+.bg-container {
+  background-color: #03787c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Poppins";
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+@media (width > 800px) {
+  .title {
+    font-size: 45px;
+  }
+}

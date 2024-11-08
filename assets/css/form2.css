@@ -1,0 +1,98 @@
+.bg-container {
+  background-image: linear-gradient(#cbe3e4, #78b7b8);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (width >= 800px) {
+  .bg-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    overflow-y: auto;
+  }
+}
+
+.form-container {
+  max-width: 800px;
+  overflow-y: auto;
+}
+
+.title-container {
+  background-color: #03787c;
+  height: 150px;
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+.title {
+  font-family: "Poppins";
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.form-input-container {
+  background-color: #d5dfdf;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+}
+
+.label {
+  font-family: "Poppins";
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-family: "Poppins";
+}
+
+.radio-input {
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
+}
+
+.radio-label {
+  font-family: "Poppins";
+  font-size: 16px;
+  margin-left: 7px;
+  margin-top: 0px;
+}
+
+.details-container {
+  margin-bottom: 60px;
+}
+
+.submit-button {
+  background-color: #03787c;
+  width: 120px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: "Poppins";
+  padding: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.errorText {
+  font-family: "Poppins";
+  margin-top: 6px;
+  font-size: 13px;
+  color: red;
+}
+
+.span-ele {
+  font-size: 16px;
+}
